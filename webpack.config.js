@@ -14,6 +14,7 @@ module.exports = {
     contentBase: './dist'
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Shape Tracker',
       template: './src/index.html',
